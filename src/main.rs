@@ -12,4 +12,9 @@ fn main() {
     let path = "./src/sample.json";
     let result = parse_json(path);
     println!("{:?}", result);
+    // println!("{:?}", result[0].len());
+    println!("{:?}", result[0]["Country"]);
+    // let country_result = result.clone();
+    // let country_name: Value = country_result[0]["Country"];
+    // println!("{}", country_name);
 }
